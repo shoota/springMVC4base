@@ -125,7 +125,12 @@
 		   <artifactId>hibernate-core</artifactId>
 		   <version>4.3.6.Final</version>
 		</dependency>
-
+		<!-- connection pool -->
+		<dependency>
+	       <groupId>org.hibernate</groupId>
+	       <artifactId>hibernate-c3p0</artifactId>
+	       <version>4.3.6.Final</version>
+        </dependency>
 				<!-- Test -->
 		<dependency>
 			<groupId>junit</groupId>
